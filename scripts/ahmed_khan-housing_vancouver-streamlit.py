@@ -11,5 +11,15 @@ df = pd.read_csv (r'/Users/ahmed.khan/Documents/personal/vancouver_datajam/prope
 # print (df)
 
 
+st.text('sample data')
 st.write(df.head())
 
+
+import io
+buffer = io.StringIO()
+df.info(buf=buffer)
+s = buffer.getvalue()
+st.write(s)
+# with open("df_info.txt", "w",
+#      encoding="utf-8") as f:
+#      f.write(s)
