@@ -1,8 +1,8 @@
 # Vancouver Datajam 2021
 
-## Vancouver housing
+## Project Title: Vancouver housing
 
-### vancouver is dang expensive innit?
+### Project Statement: vancouver is dang expensive innit?
 
 ## Project team members
 
