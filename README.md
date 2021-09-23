@@ -2,7 +2,7 @@
 
 ## Vancouver housing
 
-## vancouver is dang expensive innit?
+### vancouver is dang expensive innit?
 
 ## Project team members
 
