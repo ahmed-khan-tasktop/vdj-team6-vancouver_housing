@@ -11,5 +11,5 @@ df = pd.read_csv (r'/Users/ahmed.khan/Documents/personal/vancouver_datajam/prope
 # print (df)
 
 
-st.write(df)
+st.write(df.head())
 
