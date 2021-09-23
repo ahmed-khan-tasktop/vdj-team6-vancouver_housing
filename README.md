@@ -1,22 +1,22 @@
 # Vancouver Datajam 2021
 
-## Project title
+## Vancouver housing
 
-## Project statement
+## vancouver is dang expensive innit?
 
 ## Project team members
 
-Team lead:
+Team lead: ahmed khan
 
-Mentor:
+Mentor: alice ai
 
-Documentation:
+Documentation: ahmed khan
 
-Scripting:
+Scripting: faisal, dillon, mask, and oh so many others
 
-Modelling: 
+Modelling: everyone 
 
-Sanity checking: 
+Sanity checking: everyone? 
 
 ## Vancouver Datajam 2021 Schedule:
 
