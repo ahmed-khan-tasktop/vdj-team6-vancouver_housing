@@ -6,7 +6,7 @@ from pathlib import Path
 import json
 import pandas as pd
 
-repo_path = Path.cwd().parent.absolute()
+repo_path = Path.cwd()
 data_path = repo_path/'data'
 non_market_path = data_path/'non-market-housing.csv'
 
