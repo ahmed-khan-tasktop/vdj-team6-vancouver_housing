@@ -4,9 +4,7 @@ from dash import html
 import plotly.express as px
 import os
 
-from etl_data import (
-    non_market_dataframe, design_type_dataframe,
-    clientele_type_dataframe)
+
 
 app = dash.Dash(__name__)
 
