@@ -4,7 +4,7 @@ from dash import html
 import plotly.express as px
 import os
 
-from data import non_market_dataframe
+from etl_data import non_market_dataframe
 
 app = dash.Dash(__name__)
 
@@ -36,16 +36,20 @@ fig = px.scatter_mapbox(
 app.layout = html.Div(children=[
     html.H1(children='Interactive map of Non Market Housing in Vancouver.'),
 
-    html.Div(children='''
-        The map shows locations and information of non market housing
-        between the years 1958 - 2020.\nThe projects are color coded depending
-        on their phase and the scale reflects the capacity of the unit.
-    '''),
+    # Interacttive Map division
+    html.Div([
+        html.P(
+            'The map shows locations and information of '
+            'non market housing between the years 1958 - 2020.\n'
+            'The projects are color coded depending on their phase '
+            'and the scale reflects the capacity of the unit.'
+        ),
+        dcc.Graph(
+            id='interactive-map',
+            figure=fig
+        )
+    ]),
 
-    dcc.Graph(
-        id='interactive-map',
-        figure=fig
-    )
 ])
 
 if __name__ == '__main__':
