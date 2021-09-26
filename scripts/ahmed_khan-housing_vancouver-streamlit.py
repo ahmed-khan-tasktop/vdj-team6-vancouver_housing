@@ -23,3 +23,6 @@ st.write(s)
 # with open("df_info.txt", "w",
 #      encoding="utf-8") as f:
 #      f.write(s)
+
+
+print(df.info())
