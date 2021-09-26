@@ -9,17 +9,9 @@
 - Acknowledgment
 
 ## Team
-Team lead: ahmed khan
 
-Mentor: Alice Ai
-
-Documentation: All
-
-Scripting: Faisal, Dillon, Mask, Tanvi
-
-Modelling: All
-
-Sanity checking: All
+Team members:
+Ahmed Khan, Alice Liang, Bhawna, Dillon Hung, Faisal Albarazi, Jason Spence, Jennice Lee, Mask Lam, Natasha Birdi, Tanvi
 
 ## Overview
 This project is part of the Vancouver Datajam 2021. In this project we are examing 2 datasets; a non-market-housing
@@ -55,11 +47,13 @@ tableau files in the notebooks folder.
 ## Web app
 Before starting, make sure you have the virtual environment activated and that the `requirements.txt` is installed. (see setup).
 To run the app:
+
 	- Activate virtual environment.
 	- Run `$export MAPBOX_TOKEN=<mapbox_api_token>`. This creates an Env variable which is used in the app to make api calls to mapbox. A token can be obtain from mapbox following this [link](https://help.mapsly.com/en/articles/5344496-how-to-sign-up-for-a-mapbox-account-and-create-an-access-token)
 	- Run `$python app.py`. This starts a flask server by default at http://127.0.0.1:8050/. You can open this url in the browser to make sure the app is running.
 
 Deploy a git repo to Heroku :
+
 	- Fork the repo from git.
 	- Follow the instructions to [deploy to Heroku](https://devcenter.heroku.com/articles/git).
 	- In Heroku, go to your account -> dashboard -> click on the pushed app name -> settings.
