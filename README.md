@@ -15,7 +15,7 @@ Mentor: Alice Ai
 
 Documentation: All
 
-Scripting: Faisal, Dillon, Mask,
+Scripting: Faisal, Dillon, Mask, Tanvi
 
 Modelling: All
 
