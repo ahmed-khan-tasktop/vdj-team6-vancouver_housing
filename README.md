@@ -9,17 +9,9 @@
 - Acknowledgment
 
 ## Team
-Team lead: ahmed khan
 
-Mentor: Alice Ai
-
-Documentation: All
-
-Scripting: Faisal, Dillon, Mask, Tanvi
-
-Modelling: All
-
-Sanity checking: All
+Team members:
+Ahmed Khan, Alice Liang, Bhawna, Dillon Hung, Faisal Albarazi, Jason Spence, Jennice Lee, Mask Lam, Natasha Birdi, Tanvi
 
 ## Overview
 This project is part of the Vancouver Datajam 2021. In this project we are examing 2 datasets; a non-market-housing
